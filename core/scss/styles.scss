@@ -16,7 +16,7 @@
  */
 
 // Bar content.
-$bar-content-bg: #f70 !default;
+$bar-content-bg: #0032A0; !default;
 $bar-content-border: transparent !default;
 $bar-content-text: #fff !default;
 
@@ -324,3 +324,23 @@ mm-navigation-bar {
     /* show the checkmark icon when its checked */
     visibility: visible;
   }
+
+
+
+ .bar-side-menu {
+   background-color: #0032A0;
+ }
+ 
+ .bar-content {
+   background-color: #0032A0;
+ }
+ 
+ .button.button-positive {
+   border-color: #0032A0;
+   background-color: #0032A0;
+    color: #fff;
+ }
+ 
+ .item-divider {
+   background-color: #fafafa;
+ }
